@@ -1,0 +1,190 @@
+﻿@page "/Calcular-Frete"
+@rendermode InteractiveServer
+@using PadrãoStrategy.Components.Classes
+
+<h4>Calcular Frete</h4>
+
+<div class="card-group">
+
+    <!-- BANANAS -->
+    <div class="card card-fruits">
+        <img src="Images/banana.png" class="card-img-top img-fruits" alt="...">
+        <div class="card-body b">
+            <h5 class="card-title">Caixa de Bananas</h5>
+            <p class="card-text">Preço por caixa: R$20,00 <br /> Qtd por caixa: 10 bananas <br /> Peso: 10KG </p>
+        </div>
+        <div class="card-footer card-fruits">
+            <button type="button" class="btn btn-success" @onclick="IncrementCountBanana">Add +</button>
+        </div>
+    </div>
+
+    <!-- MAÇÃS -->
+    <div class="card">
+        <img src="Images/maca.png" class="card-img-top img-fruits" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Caixa de Maçãs</h5>
+            <p class="card-text">Preço por caixa: R$20,00 <br /> Qtd por caixa: 10 maçãs <br /> Peso: 10KG</p>
+
+        </div>
+        <div class="card-footer card-fruits">
+            <button type="button" class="btn btn-success" @onclick="IncrementCountMaca">Add +</button>
+        </div>
+    </div>
+
+    <!-- LARANJAS -->
+    <div class="card">
+        <img src="Images/laranja.png" class="card-img-top img-fruits" alt="...">
+        <div class="card-body">
+            <h5 class="card-title">Caixa de Laranjas</h5>
+            <p> Preço por caixa: R$20,00 <br /> Qtd por caixa: 10 laranjas <br /> Peso: 10KG </p>
+        </div>
+        <div class="card-footer card-fruits">
+            <button type="button" class="btn btn-success" @onclick="IncrementCountLaranja">Add +</button>
+        </div>
+    </div>
+
+    <!-- CARRINHO -->
+    <div class="card p-3">
+        <div class="list-group align-items-center">
+            <ul class="list-group list-color w-100">
+                <li class="list-group-item text-center font-weight-bold bg-light">
+                    Carrinho de Compras
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center list-color">
+                    Cxs de Bananas
+                    <span class="badge badge-primary badge-pill">@currentbanana</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Cxs de Maçãs
+                    <span class="badge badge-primary badge-pill">@currentmaca</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    Cxs de Laranjas
+                    <span class="badge badge-primary badge-pill">@currentlaranja</span>
+                </li>
+
+                <li class="list-group-item text-center font-weight-bold bg-light">
+                    <div class="d-flex justify-content-center gap-2">
+                        Quantidade de Caixas: <b>@quantidade</b>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <!-- FRETE -->
+        <div class="list-group align-items-center list-frete">
+            <ul class="list-group list-color mb-3 w-100">
+                <li class="list-group-item text-center font-weight-bold bg-light">
+                    Escolher Frete
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center list-color">
+                    <select class="form-select" aria-label="Default select example"
+                    disabled="@IsDisabled"
+                    @onchange="FreteSelect">
+                        <option selected>Selecionar Frete</option>
+                        <option value="1">Frete Expresso</option>
+                        <option value="2">Frete Normal</option>
+                        <option value="3">Frete Econômico</option>
+                    </select>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    @mensagem <b>R$ @mensagemvalorfrete</b>
+                </li>
+
+                <li class="list-group-item text-center font-weight-bold bg-light">
+                    <div class="d-flex justify-content-center gap-2">
+                        <button type="button" class="btn btn-outline-danger" @onclick="Limpar">Limpar</button>
+                        <button type="button" class="btn btn-outline-success d-flex justify-content-between align-items-center">
+                            Comprar
+                            <svg style="margin-left:2px;" xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-cart" viewBox="0 0 16 16">
+                                <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l1.313 7h8.17l1.313-7zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                            </svg>
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- INFORMAÇÕES DE FRETE -->
+<div class="list-group card-group  mt-3">
+    <ul class="list-group list-color">
+        <li class="list-group-item text-center font-weight-bold bg-light">
+            Informações de Frete
+        </li>
+        <li class="list-group-item">
+            <b>@mensagem</b> R$ @mensagemvalorfrete
+        </li>
+        <li class="list-group-item">
+            <b>A estratégia usada foi:</b> @estratégiausada
+        </li>
+    </ul>
+    <br />
+</div>
+
+@code {
+    private int currentbanana = 0;
+    private int currentmaca = 0;
+    private int currentlaranja = 0;
+
+    private int quantidade => currentbanana + currentmaca + currentlaranja;
+    private bool IsDisabled => quantidade <= 0;
+
+    private string mensagem = "";
+    private string mensagemvalorfrete = "";
+    private string estratégiausada = "";
+
+    private double peso = 10;
+
+    private void IncrementCountBanana() => currentbanana++;
+    private void IncrementCountMaca() => currentmaca++;
+    private void IncrementCountLaranja() => currentlaranja++;
+
+    private void Limpar()
+    {
+        currentbanana = 0;
+        currentmaca = 0;
+        currentlaranja = 0;
+        mensagem = "";
+        mensagemvalorfrete = "";
+    }
+
+    private void FreteSelect(ChangeEventArgs e)
+    {
+        var valor = e.Value?.ToString();
+
+        if (valor == "1")
+        {
+            LojaVirtual loja = new LojaVirtual(new FreteExpresso());
+            var id = loja.calcularFrete(peso, quantidade);
+            mensagemvalorfrete = $"{id}";
+            mensagem = $"Total c/ Frete Expresso:";
+            estratégiausada = "LojaVirtual loja = new LojaVirtual(new FreteExpresso());";
+        }
+        else if (valor == "2")
+        {
+            LojaVirtual loja = new LojaVirtual(new FreteNormal());
+            var id = loja.calcularFrete(peso, quantidade);
+            mensagemvalorfrete = $"{id}";
+            mensagem = $"Total com Frete Normal:";
+            estratégiausada = "LojaVirtual loja = new LojaVirtual(new FreteNormal());";
+        }
+        else if (valor == "3")
+        {
+            LojaVirtual loja = new LojaVirtual(new FreteEconomico());
+            var id = loja.calcularFrete(peso, quantidade);
+            mensagemvalorfrete = $"{id}";
+            mensagem = $"Total c/ Frete Econôm.:";
+            estratégiausada = "LojaVirtual loja = new LojaVirtual(new FreteEconomico());";
+        }
+        else
+        {
+            mensagemvalorfrete = "0";
+            mensagem = "Nenhum frete escolhido";
+        }
+    }
+}

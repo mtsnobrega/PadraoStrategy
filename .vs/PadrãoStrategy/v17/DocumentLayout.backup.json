@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|c:\\users\\mathe\\onedrive\\documentos\\c# faculdade\\6semestre\\padraostrategy\\components\\pages\\calcularfrete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|solutionrelative:components\\pages\\calcularfrete.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|c:\\users\\mathe\\onedrive\\documentos\\c# faculdade\\6semestre\\padraostrategy\\components\\classes\\lojavirtual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|solutionrelative:components\\classes\\lojavirtual.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|c:\\users\\mathe\\onedrive\\documentos\\c# faculdade\\6semestre\\padraostrategy\\components\\classes\\fretenormal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|solutionrelative:components\\classes\\fretenormal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|c:\\users\\mathe\\onedrive\\documentos\\c# faculdade\\6semestre\\padraostrategy\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|solutionrelative:components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|c:\\users\\mathe\\onedrive\\documentos\\c# faculdade\\6semestre\\padraostrategy\\components\\classes\\freteeconomico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|solutionrelative:components\\classes\\freteeconomico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|c:\\users\\mathe\\onedrive\\documentos\\c# faculdade\\6semestre\\padraostrategy\\wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|solutionrelative:wwwroot\\css\\custom.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|c:\\users\\mathe\\onedrive\\documentos\\c# faculdade\\6semestre\\padraostrategy\\components\\classes\\freteexpresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|solutionrelative:components\\classes\\freteexpresso.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|c:\\users\\mathe\\onedrive\\documentos\\c# faculdade\\6semestre\\padraostrategy\\components\\classes\\interface\\calcfrete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A34C808-CF71-4203-A05D-3BC99775DEF5}|Padr\u00E3oStrategy.csproj|solutionrelative:components\\classes\\interface\\calcfrete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 329,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\App.razor",
+              "RelativeDocumentMoniker": "Components\\App.razor",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\App.razor",
+              "RelativeToolTip": "Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-24T22:10:47.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FreteNormal.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\FreteNormal.cs",
+              "RelativeDocumentMoniker": "Components\\Classes\\FreteNormal.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\FreteNormal.cs",
+              "RelativeToolTip": "Components\\Classes\\FreteNormal.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T01:48:15.242Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FreteEconomico.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\FreteEconomico.cs",
+              "RelativeDocumentMoniker": "Components\\Classes\\FreteEconomico.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\FreteEconomico.cs",
+              "RelativeToolTip": "Components\\Classes\\FreteEconomico.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T00:11:44.339Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CalcularFrete.razor",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Pages\\CalcularFrete.razor",
+              "RelativeDocumentMoniker": "Components\\Pages\\CalcularFrete.razor",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Pages\\CalcularFrete.razor",
+              "RelativeToolTip": "Components\\Pages\\CalcularFrete.razor",
+              "ViewState": "AgIAALcAAAAAAAAAAAAAAH0AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-14T01:57:31.955Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FreteExpresso.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\FreteExpresso.cs",
+              "RelativeDocumentMoniker": "Components\\Classes\\FreteExpresso.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\FreteExpresso.cs",
+              "RelativeToolTip": "Components\\Classes\\FreteExpresso.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T20:24:25.642Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LojaVirtual.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\LojaVirtual.cs",
+              "RelativeDocumentMoniker": "Components\\Classes\\LojaVirtual.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\LojaVirtual.cs",
+              "RelativeToolTip": "Components\\Classes\\LojaVirtual.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-14T23:47:16.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CalcFrete.cs",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\Interface\\CalcFrete.cs",
+              "RelativeDocumentMoniker": "Components\\Classes\\Interface\\CalcFrete.cs",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\Components\\Classes\\Interface\\CalcFrete.cs",
+              "RelativeToolTip": "Components\\Classes\\Interface\\CalcFrete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-15T00:26:14.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "custom.css",
+              "DocumentMoniker": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\wwwroot\\css\\custom.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\custom.css",
+              "ToolTip": "C:\\Users\\mathe\\OneDrive\\Documentos\\C# Faculdade\\6Semestre\\PadraoStrategy\\wwwroot\\css\\custom.css",
+              "RelativeToolTip": "wwwroot\\css\\custom.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-09-14T03:45:41.665Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

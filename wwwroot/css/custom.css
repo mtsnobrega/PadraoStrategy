@@ -1,0 +1,26 @@
+﻿body {
+}
+.card-fruits {
+    display: flex;
+    justify-content: flex-end; 
+
+}
+
+.img-fruits {
+    width: 250px;
+    height: 250px;
+    display: block; 
+    margin: 0 auto; /* Centralizar dentro da div */
+}
+
+.badge-pill{
+    background: pink;
+    border-radius: 5px;
+}
+.card-group {
+    margin-left: -1%
+    
+}
+.list-frete {
+    margin-top: 10px;
+}
